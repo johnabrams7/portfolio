@@ -38,7 +38,7 @@ $(document).ready(function () {
     strings: [
       "Front-End Developer",
       "UX Designer",
-      "System Technician",
+      "Technician",
       "Media Producer",
     ],
     typeSpeed: 100,
@@ -56,7 +56,7 @@ $(document).ready(function () {
     strings: [
       "Front-End Developer",
       "UX Designer",
-      "System Technician",
+      "Technician",
       "Media Producer",
     ],
     typeSpeed: 100,
