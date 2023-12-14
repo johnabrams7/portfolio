@@ -144,7 +144,6 @@ section .title::after {
   font-weight: 700;
   margin-left: 25px;
   transition: color 0.3s ease;
-  text-shadow: #fffde5 1px 0 1px;
 }
 
 .navbar .menu li a:hover {
