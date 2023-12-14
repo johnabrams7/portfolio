@@ -1,1 +1,1 @@
-Github portfolio project
+Dynamic portfolio template 
