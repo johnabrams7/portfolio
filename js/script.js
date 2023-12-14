@@ -37,8 +37,8 @@ $(document).ready(function () {
   var typed = new Typed(".typing", {
     strings: [
       "Front-End Developer",
-      "UX / UI Designer",
-      "IT Technician",
+      "UX Designer",
+      "System Technician",
       "Media Producer",
     ],
     typeSpeed: 100,
@@ -55,8 +55,8 @@ $(document).ready(function () {
   var typed = new Typed(".typing-2", {
     strings: [
       "Front-End Developer",
-      "UX / UI Designer",
-      "IT Technician",
+      "UX Designer",
+      "System Technician",
       "Media Producer",
     ],
     typeSpeed: 100,
