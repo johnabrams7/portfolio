@@ -357,8 +357,7 @@ section .title::after {
   background: #fff;
 }
 
-.services .title::after,
-.projects .title::after {
+.services .title::after {
   background: #111;
   content: "what I provide";
 }
@@ -1014,7 +1013,7 @@ div#emaildomain::after {
   right: 4px;
 }
 span#emailname::before {
-  content: "john_abrams";
+  content: "johnlangnet";
 }
 span#botblocker {
   display: none;
