@@ -1036,7 +1036,7 @@ footer {
 
 footer h2 {
   margin-bottom: 12px;
-  color: #fff;
+  color: #000;
   font-size: 2em;
 }
 
@@ -1174,7 +1174,7 @@ footer .wave#wave4 {
 
 /* pr loader design  */
 /* #preloader {
-  /* background: url("") no-repeat center;
+   background: url("") no-repeat center;
   background-size: 15%;
   filter: invert(100%);
   background-color: #fff;
@@ -1182,9 +1182,9 @@ footer .wave#wave4 {
   width: 100%;
   position: fixed;
   cursor: pointer;
-  z-index: 1000; */
-  /* border-radius: 12px; */
-} */
+  z-index: 1000;
+   border-radius: 12px;
+}  */
 
 /* responsive media query start */
 @media (max-width: 1104px) {
