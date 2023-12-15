@@ -46,8 +46,10 @@ $(document).ready(function () {
     loop: true,
   });
   var typed = new Typed(".typing-3", {
-    strings: ["Thanks for your time.",
-    "Have a good day!"],
+    strings: [
+    "Thanks for your time.",
+    "Have a good day!",
+  ],
     typeSpeed: 100,
     backSpeed: 60,
     loop: true,
