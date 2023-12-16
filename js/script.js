@@ -11,6 +11,8 @@ $(document).ready(function () {
       location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') 
       && 
       location.hostname == this.hostname
+      &&
+      $(window).width() > 768
     ) {
       // Figure out element to scroll to
       var target = $(this.hash);
@@ -21,7 +23,7 @@ $(document).ready(function () {
         event.preventDefault();
         $('html, body').animate({
           scrollTop: target.offset().top
-        }, 200, function() {
+        }, 800, function() {
           // Callback after animation
           // Must change focus!
           var $target = $(target);
