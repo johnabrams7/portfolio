@@ -359,7 +359,7 @@ section .title::after {
 
 .services .title::after {
   background: #111;
-  content: "what I provide";
+  content: "what I can provide";
 }
 
 .container {
@@ -700,7 +700,7 @@ section .title::after {
 /* skills section styling */
 
 .skills .title::after {
-  content: "what I know";
+  content: "what I leverage";
 }
 
 .skills .skills-content .column {
@@ -806,7 +806,7 @@ section .title::after {
 
 /* projects section styling */
 .projects .title::after {
-  content: "who I've helped";
+  content: "who I've developed for";
   background: #111;
 }
 
@@ -902,7 +902,7 @@ textarea {
 }
 
 .contact .title::after {
-  content: "get in touch";
+  content: "let's get in touch";
 }
 
 .contact .contact-content .column {
