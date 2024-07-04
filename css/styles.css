@@ -1302,6 +1302,10 @@ footer p .github::before {
   .services .serv-content .card {
     width: 100%;
   }
+
+  footer h2 {
+    font-size: 1.5em;
+  }
 }
 
 @media (max-width: 500px) {

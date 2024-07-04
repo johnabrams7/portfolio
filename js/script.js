@@ -47,8 +47,8 @@ $(document).ready(function () {
   });
   var typed = new Typed(".typing-3", {
     strings: [
-    "Thanks for your time.",
-    "Have a good day!",
+    "Thanks for your time!",
+    "Have a great day!",
   ],
     typeSpeed: 100,
     backSpeed: 60,
