@@ -1203,8 +1203,9 @@ footer p .github::before {
   }
 
   .home {
-    background: url("../images/forest-sunrise-mobile.jpg") no-repeat;
-    height: 60vh;
+    background: url("../images/forest-sunrise-mobile.jpg") center no-repeat;
+    background-size: cover;
+    height: 100vh;
   }
 
   .navbar .menu {
@@ -1306,10 +1307,6 @@ footer p .github::before {
 @media (max-width: 500px) {
   .home .home-content .text-2 {
     font-size: 40px;
-  }
-
-  .home .home-content .text-2 {
-    font-size: 24px;
   }
 
   .home .home-content .text-3 {
