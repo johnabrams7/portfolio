@@ -322,13 +322,8 @@ section .title::after {
   color: #00aa2d;
 }
 
-.about .about-content .right p {
-  text-align: justify;
-}
-
 .about .about-content .right a {
   display: inline-block;
-  /* background: #00aa2d; */
   color: #00aa2d;
   font-size: 20px;
   font-weight: 500;
@@ -749,13 +744,8 @@ section .title::after {
   margin-bottom: 10px;
 }
 
-.skills .skills-content .left p {
-  text-align: justify;
-}
-
 .skills .skills-content .left a {
   display: inline-block;
-  /* background: #00aa2d; */
   color: #00aa2d;
   font-size: 18px;
   font-weight: 500;
@@ -764,6 +754,13 @@ section .title::after {
   border-radius: 6px;
   border: 2px solid #00aa2d;
   transition: 0.3s ease-in-out;
+}
+
+
+.skills .skills-content .left .text-link {
+  font-size: unset;
+  display: inline;
+  padding: 0px;
 }
 
 .skills .skills-content .left a:hover {
@@ -949,10 +946,6 @@ textarea {
   font-size: 20px;
   font-weight: 600;
   margin-bottom: 10px;
-}
-
-.contact .contact-content .left p {
-  text-align: justify;
 }
 
 .contact .contact-content .left .icons {
@@ -1294,6 +1287,13 @@ footer p .github::before {
     font-size: 20px;
   }
 
+  .about .about-content .right a {
+    font-size: 16px;
+    font-weight: 500;
+    padding: 4px 12px;
+    margin: 14px 6px 0px 0px;
+  }
+
   .classbox {
     width: 300px;
     height: 88px;
@@ -1319,7 +1319,11 @@ footer p .github::before {
 
   .about .about-content .right .text,
   .skills .skills-content .left .text {
-    font-size: 19px;
+    font-size: 18px;
+  }
+
+  .about .about-content .right .about-roles {
+    display: block;
   }
 
   .contact .right form .fields {
