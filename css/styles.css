@@ -395,7 +395,7 @@ section .title::after {
 
 .services .title::after {
   background: #111;
-  content: "what I can provide";
+  content: "what I provide";
 }
 
 .container {
@@ -842,7 +842,7 @@ section .title::after {
 
 /* projects section styling */
 .projects .title::after {
-  content: "who I've developed for";
+  content: "previous work";
   background: #111;
 }
 
@@ -938,7 +938,7 @@ textarea {
 }
 
 .contact .title::after {
-  content: "let's get in touch";
+  content: "get in touch";
 }
 
 .contact .contact-content .column {
