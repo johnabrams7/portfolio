@@ -1176,6 +1176,15 @@ footer p .github::before {
     height: 350px;
     width: 350px;
   }
+  .projects .carousel .card .text {
+    font-size: 20px;
+  }
+  .projects .carousel .card {
+    height: 42vh;
+  }
+  .projects .carousel .card p {
+    height: 75px;
+  }
 }
 
 @media (max-width: 991px) {
