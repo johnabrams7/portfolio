@@ -1128,10 +1128,7 @@ footer p a {
 }
 
 footer p a:hover {
-  text-decoration: underline;
   color: rgb(5, 1, 1);
-  font-size: 1.2em;
-  transform: rotateX(10px);
 }
 
 footer .wave {
