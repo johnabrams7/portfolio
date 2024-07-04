@@ -1152,8 +1152,23 @@ footer p a {
   transition: 0.5s ease-in-out;
 }
 
-footer p a:hover {
-  color: rgb(5, 1, 1);
+footer p .linkedin::before {
+  font: var(--fa-font-brands);
+  content: "\f08c";
+  padding-right: 6px;
+}
+
+footer p .resume::before {
+  font: var(--fa-font-regular);
+  content: "\f15c";
+  padding-right: 6px;
+}
+
+
+footer p .github::before {
+  font: var(--fa-font-brands);
+  content: "\f092";
+  padding-right: 6px;
 }
 
 
