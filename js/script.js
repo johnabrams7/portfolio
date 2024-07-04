@@ -57,7 +57,7 @@ $(document).ready(function () {
 
   var typed = new Typed(".typing-2", {
     strings: [
-      "Front-End Developer",
+      "Web Developer",
       "UX Designer",
       "Technician"
     ],
