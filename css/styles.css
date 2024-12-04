@@ -380,13 +380,15 @@ section .title::after {
 
 /* services section styling */
 .services,
-.projects {
+.projects,
+.contact {
   color: #fff;
   background: #111;
 }
 
 .services .title::before,
-.projects .title::before {
+.projects .title::before,
+.contact .title::before{
   background: #fff;
 }
 
@@ -950,6 +952,7 @@ textarea {
 
 .contact .title::after {
   content: "get in touch";
+  background: #111;
 }
 
 .contact .contact-content .column {
@@ -987,7 +990,9 @@ textarea {
 }
 
 .contact .contact-content .info .sub-title {
-  color: #333;
+  /* color: #333; */
+  color: #fff;
+  font-weight: 500;
 }
 
 .contact .right form .fields {
