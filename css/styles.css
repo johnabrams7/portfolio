@@ -1199,7 +1199,7 @@ footer p .github::before {
   }
 
   section {
-    padding: 50px 0px;
+    padding: 75px 0px;
   }
 
   .home {
@@ -1305,11 +1305,15 @@ footer p .github::before {
 
 @media (max-width: 500px) {
   .home .home-content .text-2 {
-    font-size: 50px;
+    font-size: 40px;
+  }
+
+  .home .home-content .text-2 {
+    font-size: 24px;
   }
 
   .home .home-content .text-3 {
-    font-size: 27px;
+    font-size: 24px;
   }
 
   .about .about-content .right .text,
