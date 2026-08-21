@@ -1308,6 +1308,15 @@ footer p .github::before {
   .services .serv-content .card {
     width: 100%;
   }
+  .container .box .content {
+    padding: 40px;
+  }
+  .container .box .content h2 {
+    font-size: 1.5em;
+  }
+  .container .box .content p {
+    font-size: 1em;
+  }
 
   footer h2 {
     font-size: 1.5em;
