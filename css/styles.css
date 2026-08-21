@@ -1166,6 +1166,12 @@ footer p .github::before {
 
 /* responsive media query start */
 @media (max-width: 1104px) {
+  .navbar .logo a {
+    font-size: 24px;
+  }
+  .navbar .menu li a {
+    font-size: 20px;
+  }
   .about .about-content .left img {
     height: 350px;
     width: 350px;
