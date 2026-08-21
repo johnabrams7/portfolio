@@ -101,12 +101,12 @@ section .title::after {
   padding: 5px 0;
   font-family: "Ubuntu", sans-serif;
   transition: all 0.3s ease;
-  background: #000;
+  background-color: rgba(0, 0, 0, 0.6)
 }
 
 .navbar.sticky {
   padding: 15px 0;
-  background: #00aa2d;
+  background: #000;
 }
 
 .navbar .max-width {
@@ -145,18 +145,12 @@ section .title::after {
   margin-left: 25px;
   transition: color 0.3s ease;
   text-shadow: #fffde5 1px 0 1px;
-  -webkit-text-stroke: .25px #000;
-  text-stroke: .25px #000;
 }
 
 .navbar .menu li a:hover {
   cursor: pointer;
-  color: #b9ffc0;
-  cursor: pointer;
-  text-shadow: #FC0 0 0 20px;
-  -webkit-text-stroke: .25px #000;
-  text-stroke: .25px #000;
-  transition: 0.3s;
+  text-shadow: #FC0 0 0 10px;
+  transition: 0.4s;
 }
 
 .navbar.sticky .menu li a:hover {
@@ -775,7 +769,7 @@ section .title::after {
 .skills .skills-content .right .line {
   height: 5px;
   width: 100%;
-  background: lightgrey;
+  background: #00aa2d;
   position: relative;
 }
 
