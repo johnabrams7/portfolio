@@ -882,6 +882,13 @@ section .title::after {
   border: 2px solid #00aa2d;
   transition: 0.3s ease-in-out;
 }
+.projects .carousel .card .box img {
+  display: inline-block;
+  text-align: center;
+}
+.projects .carousel .card .box a {
+  color: #fff;
+}
 
 .projects .carousel .card .box .project:hover {
   color: white;
