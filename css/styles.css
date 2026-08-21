@@ -1180,8 +1180,8 @@ footer .wave#wave4 {
 }
 
 /* pr loader design  */
-#preloader {
-  background: url("img/e3a.gif") no-repeat center;
+/* #preloader {
+  /* background: url("") no-repeat center;
   background-size: 15%;
   filter: invert(100%);
   background-color: #fff;
@@ -1189,9 +1189,9 @@ footer .wave#wave4 {
   width: 100%;
   position: fixed;
   cursor: pointer;
-  z-index: 1000;
+  z-index: 1000; */
   /* border-radius: 12px; */
-}
+} */
 
 /* responsive media query start */
 @media (max-width: 1104px) {
