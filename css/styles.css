@@ -467,6 +467,7 @@ section .title::after {
   z-index: 1;
   transition: 0.5s;
   color: #fff;
+  height: 400px;
 }
 
 .container .box:hover .content {
