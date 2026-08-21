@@ -7,7 +7,6 @@
   box-sizing: border-box;
   text-decoration: none;
   font-family: "Poppins", sans-serif;
-  /*     font-family: consolas; */
 }
 
 html {
@@ -1187,6 +1186,9 @@ footer p .github::before {
 }
 
 @media (max-width: 947px) {
+  html {
+    scroll-padding-top: 4rem; 
+  }
   .menu-btn {
     display: block;
     z-index: 999;
@@ -1194,6 +1196,15 @@ footer p .github::before {
 
   .menu-btn i.active:before {
     content: "\f00d";
+  }
+
+  section {
+    padding: 50px 0px;
+  }
+
+  .home {
+    background: url("../images/forest-sunrise-mobile.jpg") no-repeat;
+    height: 60vh;
   }
 
   .navbar .menu {
