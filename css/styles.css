@@ -100,7 +100,7 @@ section .title::after {
   padding: 5px 0;
   font-family: "Ubuntu", sans-serif;
   transition: all 0.3s ease;
-  background-color: rgba(0, 0, 0, 0.6)
+  background-color: rgba(0, 0, 0, 0.6);
 }
 
 .navbar.sticky {
@@ -147,7 +147,7 @@ section .title::after {
 
 .navbar .menu li a:hover {
   cursor: pointer;
-  text-shadow: #FC0 0 0 10px;
+  text-shadow: #fc0 0 0 10px;
   transition: 0.4s;
 }
 
@@ -157,7 +157,7 @@ section .title::after {
 }
 
 /* menu btn styling */
-.menu-btn {
+.menu-toggle {
   color: #fff;
   font-size: 23px;
   cursor: pointer;
@@ -353,7 +353,6 @@ section .title::after {
   padding-right: 6px;
 }
 
-
 .about .about-content .right .github::before {
   font: var(--fa-font-brands);
   content: "\f092";
@@ -388,7 +387,7 @@ section .title::after {
 
 .services .title::before,
 .projects .title::before,
-.contact .title::before{
+.contact .title::before {
   background: #fff;
 }
 
@@ -559,7 +558,8 @@ section .title::after {
   width: 60px;
   height: 60px;
   opacity: 1;
-  background: url("https://cdn.icon-icons.com/icons2/2334/PNG/512/pen_tool_anchor_point_design_icon_142354.png") no-repeat;
+  background: url("https://cdn.icon-icons.com/icons2/2334/PNG/512/pen_tool_anchor_point_design_icon_142354.png")
+    no-repeat;
   background-size: 60px;
   background-position: center;
   filter: invert(100%);
@@ -572,7 +572,8 @@ section .title::after {
   width: 60px;
   height: 60px;
   opacity: 1;
-  background: url("https://cdn.icon-icons.com/icons2/1145/PNG/512/codeoutlinedprogrammingsigns_81143.png") no-repeat;
+  background: url("https://cdn.icon-icons.com/icons2/1145/PNG/512/codeoutlinedprogrammingsigns_81143.png")
+    no-repeat;
   background-size: 60px;
   background-position: center;
   filter: invert(100%);
@@ -585,7 +586,8 @@ section .title::after {
   width: 60px;
   height: 60px;
   opacity: 1;
-  background: url("https://cdn.icon-icons.com/icons2/1725/PNG/512/4014703-driver-mobile-phone-repair-screw-service-wrench_112878.png") no-repeat;
+  background: url("https://cdn.icon-icons.com/icons2/1725/PNG/512/4014703-driver-mobile-phone-repair-screw-service-wrench_112878.png")
+    no-repeat;
   background-size: 60px;
   background-position: center;
   filter: invert(100%);
@@ -598,7 +600,8 @@ section .title::after {
   width: 60px;
   height: 60px;
   opacity: 1;
-  background: url("https://cdn.icon-icons.com/icons2/1336/PNG/512/digitalphotography_87267.png") no-repeat;
+  background: url("https://cdn.icon-icons.com/icons2/1336/PNG/512/digitalphotography_87267.png")
+    no-repeat;
   background-size: 60px;
   background-position: center;
   filter: invert(100%);
@@ -611,7 +614,8 @@ section .title::after {
   width: 60px;
   height: 60px;
   opacity: 1;
-  background: url("https://cdn.icon-icons.com/icons2/620/PNG/512/bars-chart-ascending_icon-icons.com_56865.png") no-repeat;
+  background: url("https://cdn.icon-icons.com/icons2/620/PNG/512/bars-chart-ascending_icon-icons.com_56865.png")
+    no-repeat;
   background-size: 60px;
   background-position: center;
   filter: invert(100%);
@@ -624,7 +628,8 @@ section .title::after {
   width: 60px;
   height: 60px;
   opacity: 1;
-  background: url("https://cdn.icon-icons.com/icons2/3497/PNG/512/mobile_tablet_computer_responsive_design_icon_220537.png") no-repeat;
+  background: url("https://cdn.icon-icons.com/icons2/3497/PNG/512/mobile_tablet_computer_responsive_design_icon_220537.png")
+    no-repeat;
   background-size: 60px;
   background-position: center;
   filter: invert(100%);
@@ -654,7 +659,8 @@ section .title::after {
   width: 60px;
   height: 60px;
   opacity: 1;
-  background: url("https://cdn.icon-icons.com/icons2/3497/PNG/512/mobile_tablet_computer_responsive_design_icon_220537.png") no-repeat;
+  background: url("https://cdn.icon-icons.com/icons2/3497/PNG/512/mobile_tablet_computer_responsive_design_icon_220537.png")
+    no-repeat;
   background-size: 60px;
   background-position: center;
   padding: 10px;
@@ -666,7 +672,8 @@ section .title::after {
   width: 60px;
   height: 60px;
   opacity: 1;
-  background: url("https://cdn.icon-icons.com/icons2/620/PNG/512/bars-chart-ascending_icon-icons.com_56865.png") no-repeat;
+  background: url("https://cdn.icon-icons.com/icons2/620/PNG/512/bars-chart-ascending_icon-icons.com_56865.png")
+    no-repeat;
   background-size: 60px;
   background-position: center;
   padding: 10px;
@@ -678,7 +685,8 @@ section .title::after {
   width: 60px;
   height: 60px;
   opacity: 1;
-  background: url("https://cdn.icon-icons.com/icons2/1336/PNG/512/digitalphotography_87267.png") no-repeat;
+  background: url("https://cdn.icon-icons.com/icons2/1336/PNG/512/digitalphotography_87267.png")
+    no-repeat;
   background-size: 60px;
   background-position: center;
   padding: 10px;
@@ -690,7 +698,8 @@ section .title::after {
   width: 60px;
   height: 60px;
   opacity: 1;
-  background: url("https://cdn.icon-icons.com/icons2/1725/PNG/512/4014703-driver-mobile-phone-repair-screw-service-wrench_112878.png") no-repeat;
+  background: url("https://cdn.icon-icons.com/icons2/1725/PNG/512/4014703-driver-mobile-phone-repair-screw-service-wrench_112878.png")
+    no-repeat;
   background-size: 60px;
   background-position: center;
   padding: 10px;
@@ -702,7 +711,8 @@ section .title::after {
   width: 60px;
   height: 60px;
   opacity: 1;
-  background: url("https://cdn.icon-icons.com/icons2/1145/PNG/512/codeoutlinedprogrammingsigns_81143.png") no-repeat;
+  background: url("https://cdn.icon-icons.com/icons2/1145/PNG/512/codeoutlinedprogrammingsigns_81143.png")
+    no-repeat;
   background-size: 60px;
   background-position: center;
   padding: 10px;
@@ -714,14 +724,14 @@ section .title::after {
   width: 60px;
   height: 60px;
   opacity: 1;
-  background: url("https://cdn.icon-icons.com/icons2/2334/PNG/512/pen_tool_anchor_point_design_icon_142354.png") no-repeat;
+  background: url("https://cdn.icon-icons.com/icons2/2334/PNG/512/pen_tool_anchor_point_design_icon_142354.png")
+    no-repeat;
   background-size: 60px;
   background-position: center;
   padding: 10px;
 }
 
 @keyframes animate {
-
   0%,
   100% {
     transform: translateY(10px);
@@ -763,7 +773,6 @@ section .title::after {
   font: var(--fa-font-regular);
   content: "\f15c";
 }
-
 
 .skills .skills-content .github::before {
   font: var(--fa-font-brands);
@@ -1134,7 +1143,10 @@ footer h2 {
   content: "";
   position: absolute;
   inset: 30px;
-  box-shadow: 0 0 0 10px var(--clr), 0 0 0 20px var(--bg), 0 0 0 22px var(--clr);
+  box-shadow:
+    0 0 0 10px var(--clr),
+    0 0 0 20px var(--bg),
+    0 0 0 22px var(--clr);
   transition: 0.5s;
 }
 
@@ -1176,13 +1188,11 @@ footer p .resume::before {
   padding-right: 6px;
 }
 
-
 footer p .github::before {
   font: var(--fa-font-brands);
   content: "\f092";
   padding-right: 6px;
 }
-
 
 /* responsive media query start */
 @media (max-width: 1104px) {
@@ -1215,14 +1225,14 @@ footer p .github::before {
 
 @media (max-width: 947px) {
   html {
-    scroll-padding-top: 4rem; 
+    scroll-padding-top: 4rem;
   }
-  .menu-btn {
+  .menu-toggle {
     display: block;
     z-index: 999;
   }
 
-  .menu-btn i.active:before {
+  .menu-toggle i.active:before {
     content: "\f00d";
   }
 
