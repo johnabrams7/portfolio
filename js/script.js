@@ -1,4 +1,10 @@
 $(document).ready(function () {
+  // preloader
+  window.addEventListener("load", function () {
+    const loader = document.getElementById("preloader");
+    loader.style.display = "none";
+  });
+
   $(window).scroll(function () {
     // sticky navbar on scroll script
     if (this.scrollY > 20) {
