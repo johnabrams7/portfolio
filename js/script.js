@@ -34,21 +34,20 @@ $(document).ready(function () {
   });
 
   // typing text animation script
-  const typed = new Typed(".typing", {
+  const typedHome = new Typed(".typing", {
     strings: ["Front-End Developer", "UX Designer", "Technician"],
     typeSpeed: 100,
     backSpeed: 60,
     loop: true,
   });
-  const typed = new Typed(".typing-3", {
-    strings: ["Thanks for your time!", "Have a great day!"],
+  const typedAbout = new Typed(".typing-2", {
+    strings: ["Web Developer", "UX Designer", "Technician"],
     typeSpeed: 100,
     backSpeed: 60,
     loop: true,
   });
-
-  const typed = new Typed(".typing-2", {
-    strings: ["Web Developer", "UX Designer", "Technician"],
+  const typedFooter = new Typed(".typing-3", {
+    strings: ["Thanks for your time!", "Have a great day!"],
     typeSpeed: 100,
     backSpeed: 60,
     loop: true,
