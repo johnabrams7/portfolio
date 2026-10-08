@@ -197,12 +197,19 @@ section .title::after {
 /* home section styling */
 .home {
   display: flex;
-  background: url("../images/forest-sunrise.jpg") no-repeat center;
+  background:
+    linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.55) 0%,
+      rgba(0, 0, 0, 0.25) 45%,
+      rgba(0, 0, 0, 0) 75%
+    ),
+    url("../images/forest-sunrise.jpg") no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
   height: 100vh;
   color: #fff;
   min-height: 500px;
-  background-size: cover;
-  background-attachment: fixed;
   font-family: "Ubuntu", sans-serif;
 }
 
