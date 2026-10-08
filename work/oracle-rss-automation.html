@@ -4,14 +4,23 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Automated RSS Publishing for Oracle CMS | John Langston</title>
-    <meta name="description" content="A scheduling tool that kept a government agency's emergency press-release RSS feed on Oracle Content Management current every 5 minutes." />
+    <meta
+      name="description"
+      content="A scheduling tool that kept a government agency's emergency press-release RSS feed on Oracle Content Management current every 5 minutes."
+    />
     <meta name="author" content="John Langston" />
 
     <meta property="og:site_name" content="John Langston's Portfolio" />
-    <meta property="og:title" content="Automated RSS Publishing for Oracle CMS" />
+    <meta
+      property="og:title"
+      content="Automated RSS Publishing for Oracle CMS"
+    />
     <meta property="og:type" content="article" />
     <meta property="og:image" content="../images/work/rss-tool-final.webp" />
-    <meta property="og:description" content="A scheduling tool that kept a government agency's emergency press-release RSS feed on Oracle Content Management current every 5 minutes." />
+    <meta
+      property="og:description"
+      content="A scheduling tool that kept a government agency's emergency press-release RSS feed on Oracle Content Management current every 5 minutes."
+    />
     <meta property="og:locale" content="en_US" />
 
     <link rel="stylesheet" href="../css/styles.css" />
@@ -24,9 +33,23 @@
       referrerpolicy="no-referrer"
     />
 
-    <link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="../apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="../favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="../favicon-16x16.png"
+    />
     <link rel="manifest" href="../site.webmanifest" />
     <meta name="theme-color" content="#111111" />
   </head>
@@ -46,7 +69,12 @@
             <li><a href="../index.html#skills">Skills</a></li>
             <li><a href="../index.html#contact">Contact</a></li>
           </ul>
-          <div class="menu-toggle" role="button" aria-label="Toggle menu" tabindex="0">
+          <div
+            class="menu-toggle"
+            role="button"
+            aria-label="Toggle menu"
+            tabindex="0"
+          >
             <i class="fas fa-bars" aria-hidden="true"></i>
           </div>
         </div>
@@ -60,7 +88,10 @@
           <span class="eyebrow">CMS Integration &middot; Automation</span>
           <h1>Automated RSS Publishing for Oracle CMS</h1>
           <p class="lede">
-            An automation tool for a government agency's emergency press-release site on Oracle Content Management, keeping its public RSS feed current every 5 minutes with no manual work and no full-site rebuilds.
+            An automation tool for a government agency's emergency press-release
+            site on Oracle Content Management, keeping its public RSS feed
+            current every 5 minutes with no manual work and no full-site
+            rebuilds.
           </p>
           <dl class="case-meta">
             <div>
@@ -88,7 +119,11 @@
           <h2>The problem</h2>
           <div class="prose">
             <p>
-              Oracle Content Management only regenerated the site's RSS feed during a <strong>full manual site republish</strong>. That was slow and easy to forget, and on an emergency press-release site it meant time-sensitive updates could lag behind what the public needed to see.
+              Oracle Content Management only regenerated the site's RSS feed
+              during a <strong>full manual site republish</strong>. That was
+              slow and easy to forget, and on an emergency press-release site it
+              meant time-sensitive updates could lag behind what the public
+              needed to see.
             </p>
           </div>
         </div>
@@ -101,8 +136,14 @@
             <div class="panel">
               <h3>My part</h3>
               <ul class="highlights">
-                <li>Wrote the tool's design spec, defining the fields and functions it needed.</li>
-                <li>Connected the OCM Content Toolkit and server access so scheduled commands could run against the live site.</li>
+                <li>
+                  Wrote the tool's design spec, defining the fields and
+                  functions it needed.
+                </li>
+                <li>
+                  Connected the OCM Content Toolkit and server access so
+                  scheduled commands could run against the live site.
+                </li>
               </ul>
             </div>
             <div class="panel">
@@ -123,7 +164,10 @@
             <div class="panel">
               <h3>Early version</h3>
               <ul class="highlights">
-                <li>Raw <code>cec</code> toolkit commands with typed cron schedules.</li>
+                <li>
+                  Raw <code>cec</code> toolkit commands with typed cron
+                  schedules.
+                </li>
                 <li>Validation limiting commands to Oracle's toolkit.</li>
                 <li>Log viewers for stdout, stderr and execution errors.</li>
               </ul>
@@ -132,9 +176,16 @@
               <h3>Finished tool</h3>
               <ul class="highlights">
                 <li>Guided form with command types and structured fields.</li>
-                <li>&ldquo;Show Compiled Command&rdquo; preview before saving.</li>
-                <li>Preset schedules, custom cron, and per-task enable toggles.</li>
-                <li>A nightly maintenance window so jobs never collide with toolkit updates.</li>
+                <li>
+                  &ldquo;Show Compiled Command&rdquo; preview before saving.
+                </li>
+                <li>
+                  Preset schedules, custom cron, and per-task enable toggles.
+                </li>
+                <li>
+                  A nightly maintenance window so jobs never collide with
+                  toolkit updates.
+                </li>
               </ul>
             </div>
           </div>
@@ -146,7 +197,10 @@
           <h2>The result</h2>
           <div class="prose">
             <p>
-              The feed refreshed every 5 minutes, matching its 5-minute time-to-live, with zero manual effort. The content team no longer had to remember a full republish just to get a press release into the feed.
+              The feed refreshed every 5 minutes, matching its 5-minute
+              time-to-live, with zero manual effort. The content team no longer
+              had to remember a full republish just to get a press release into
+              the feed.
             </p>
           </div>
         </div>
@@ -156,34 +210,75 @@
         <div class="max-width">
           <h2>Screenshots</h2>
           <div class="prose">
-            <p>
-              Client names and URLs are redacted.
-            </p>
+            <p>Client names and URLs are redacted.</p>
           </div>
           <div class="gallery">
             <figure class="shot">
-              <button type="button" aria-label="Enlarge: Finished scheduling tool form">
-                <img src="../images/work/rss-tool-final.webp" alt="Finished scheduling tool form" loading="lazy" />
+              <button
+                type="button"
+                aria-label="Enlarge: Finished scheduling tool form"
+              >
+                <img
+                  src="../images/work/rss-tool-final.webp"
+                  alt="Finished scheduling tool form"
+                  loading="lazy"
+                />
               </button>
-              <figcaption><b>Finished tool.</b> Guided form builds and previews OCM Toolkit commands, with preset or custom cron schedules and a nightly maintenance window.</figcaption>
+              <figcaption>
+                <b>Finished tool.</b> Guided form builds and previews OCM
+                Toolkit commands, with preset or custom cron schedules and a
+                nightly maintenance window.
+              </figcaption>
             </figure>
             <figure class="shot">
-              <button type="button" aria-label="Enlarge: Oracle CMS RSS feed configuration for emergency press releases">
-                <img src="../images/work/rss-feed-config.webp" alt="Oracle CMS RSS feed configuration for emergency press releases" loading="lazy" />
+              <button
+                type="button"
+                aria-label="Enlarge: Oracle CMS RSS feed configuration for emergency press releases"
+              >
+                <img
+                  src="../images/work/rss-feed-config.webp"
+                  alt="Oracle CMS RSS feed configuration for emergency press releases"
+                  loading="lazy"
+                />
               </button>
-              <figcaption><b>Feed configuration.</b> Emergency press releases, newest first, with a 5-minute TTL. The scheduler kept it published on that cadence.</figcaption>
+              <figcaption>
+                <b>Feed configuration.</b> Emergency press releases, newest
+                first, with a 5-minute TTL. The scheduler kept it published on
+                that cadence.
+              </figcaption>
             </figure>
             <figure class="shot">
-              <button type="button" aria-label="Enlarge: Oracle CMS site builder settings">
-                <img src="../images/work/rss-site-settings.webp" alt="Oracle CMS site builder settings" loading="lazy" />
+              <button
+                type="button"
+                aria-label="Enlarge: Oracle CMS site builder settings"
+              >
+                <img
+                  src="../images/work/rss-site-settings.webp"
+                  alt="Oracle CMS site builder settings"
+                  loading="lazy"
+                />
               </button>
-              <figcaption><b>Site settings.</b> Oracle CMS site builder settings, where the RSS feed XML lives.</figcaption>
+              <figcaption>
+                <b>Site settings.</b> Oracle CMS site builder settings, where
+                the RSS feed XML lives.
+              </figcaption>
             </figure>
             <figure class="shot">
-              <button type="button" aria-label="Enlarge: Early version of the scheduling tool">
-                <img src="../images/work/rss-tool-v1.webp" alt="Early version of the scheduling tool" loading="lazy" />
+              <button
+                type="button"
+                aria-label="Enlarge: Early version of the scheduling tool"
+              >
+                <img
+                  src="../images/work/rss-tool-v1.webp"
+                  alt="Early version of the scheduling tool"
+                  loading="lazy"
+                />
               </button>
-              <figcaption><b>Early version.</b> Raw cec commands with cron schedules, input validation limited to Oracle's toolkit, and stdout/stderr log viewers.</figcaption>
+              <figcaption>
+                <b>Early version.</b> Raw cec commands with cron schedules,
+                input validation limited to Oracle's toolkit, and stdout/stderr
+                log viewers.
+              </figcaption>
             </figure>
           </div>
         </div>
@@ -212,21 +307,47 @@
     </main>
 
     <dialog class="lightbox" aria-label="Enlarged screenshot">
-      <button class="lightbox-close" type="button" aria-label="Close">&times;</button>
-      <img src="" alt="" />
+      <button class="lightbox-close" type="button" aria-label="Close">
+        &times;
+      </button>
+      <img alt="" />
       <p></p>
     </dialog>
 
     <footer>
       <h2>Thanks for your time!</h2>
       <p>
-        <a class="linkedin" href="https://www.linkedin.com/in/johnlang7" target="_blank" rel="noopener">LinkedIn</a>
+        <a
+          class="linkedin"
+          href="https://www.linkedin.com/in/johnlang7"
+          target="_blank"
+          rel="noopener"
+          >LinkedIn</a
+        >
         |
-        <a class="github" href="https://github.com/johnabrams7" target="_blank" rel="noopener">GitHub</a>
+        <a
+          class="github"
+          href="https://github.com/johnabrams7"
+          target="_blank"
+          rel="noopener"
+          >GitHub</a
+        >
         |
-        <a class="upwork" href="https://www.upwork.com/freelancers/johnlang7" target="_blank" rel="noopener">Upwork</a>
+        <a
+          class="upwork"
+          href="https://www.upwork.com/freelancers/johnlang7"
+          target="_blank"
+          rel="noopener"
+          >Upwork</a
+        >
         |
-        <a class="stackoverflow" href="https://stackoverflow.com/users/10166674/johnabrams7" target="_blank" rel="noopener">Stack Overflow</a><br />
+        <a
+          class="stackoverflow"
+          href="https://stackoverflow.com/users/10166674/johnabrams7"
+          target="_blank"
+          rel="noopener"
+          >Stack Overflow</a
+        ><br />
         &copy; 2026 John Langston | All Rights Reserved
       </p>
     </footer>
