@@ -284,6 +284,11 @@ section .title::after {
 }
 
 .classbox a {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-decoration: none;
   color: #fff;
   font-size: 1.6em;
@@ -359,6 +364,12 @@ section .title::after {
   padding-right: 6px;
 }
 
+.about .about-content .right .upwork::before {
+  font: var(--fa-font-solid);
+  content: "\f0b1";
+  padding-right: 6px;
+}
+
 .about .about-content .right .sourcecode {
   color: #0065b3;
   border: 2px solid #0065b3;
@@ -375,6 +386,133 @@ section .title::after {
 .about .about-content .right .sourcecode:hover {
   color: white;
   background: #0065b3;
+}
+
+/* work section styling */
+.work {
+  background: #f3f6f4;
+}
+
+.work .title::after {
+  content: "what I've built";
+  background: #f3f6f4;
+}
+
+.work-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 30px;
+}
+
+.work-card {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  color: #111;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.08);
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.work-card:hover,
+.work-card:focus-visible {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.16);
+}
+
+.work-thumb {
+  aspect-ratio: 16 / 10;
+  background: linear-gradient(135deg, #0d1b14, #00359e);
+  overflow: hidden;
+}
+
+.work-thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top center;
+  display: block;
+  transition: transform 0.5s ease;
+}
+
+.work-card:hover .work-thumb img {
+  transform: scale(1.04);
+}
+
+.work-thumb.is-empty {
+  position: relative;
+}
+
+.work-thumb.is-empty img {
+  display: none;
+}
+
+.work-thumb.is-empty::after {
+  content: attr(data-label);
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #c1f8e9;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 26px;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+}
+
+.work-body {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 22px 24px 26px;
+}
+
+.work-tag {
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #00aa2d;
+  margin-bottom: 8px;
+}
+
+.work-body h3 {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 21px;
+  font-weight: 500;
+  line-height: 1.3;
+  margin-bottom: 10px;
+}
+
+.work-body p {
+  font-size: 15px;
+  line-height: 1.6;
+  color: #444;
+  margin-bottom: 18px;
+}
+
+.work-link {
+  margin-top: auto;
+  align-self: flex-start;
+  color: #00aa2d;
+  font-weight: 500;
+  padding: 6px 14px;
+  border: 2px solid #00aa2d;
+  border-radius: 6px;
+  transition: all 0.3s ease-in-out;
+}
+
+.work-link::after {
+  content: " \2192";
+}
+
+.work-card:hover .work-link {
+  color: #fff;
+  background: #00aa2d;
 }
 
 /* services section styling */
@@ -1004,6 +1142,16 @@ textarea {
   font-weight: 500;
 }
 
+.contact .contact-content .info .sub-title a {
+  color: #00d93a;
+  transition: color 0.3s ease;
+}
+
+.contact .contact-content .info .sub-title a:hover {
+  color: #c1f8e9;
+  text-decoration: underline;
+}
+
 .contact .right form .fields {
   display: flex;
 }
@@ -1182,6 +1330,18 @@ footer p .linkedin::before {
   padding-right: 6px;
 }
 
+footer p .upwork::before {
+  font: var(--fa-font-solid);
+  content: "\f0b1";
+  padding-right: 6px;
+}
+
+footer p .stackoverflow::before {
+  font: var(--fa-font-brands);
+  content: "\f16c";
+  padding-right: 6px;
+}
+
 footer p .resume::before {
   font: var(--fa-font-regular);
   content: "\f15c";
@@ -1308,6 +1468,10 @@ footer p .github::before {
     margin-bottom: 20px;
   }
 
+  .work-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .skills .skills-content .column,
   .contact .contact-content .column {
     width: 100%;
@@ -1346,6 +1510,9 @@ footer p .github::before {
 
   .services .serv-content .card {
     width: 100%;
+  }
+  .work-grid {
+    grid-template-columns: 1fr;
   }
   .container .box .content {
     padding: 40px;
